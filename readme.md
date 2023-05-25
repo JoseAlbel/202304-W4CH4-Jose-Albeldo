@@ -23,3 +23,31 @@ Separa todo en los siguientes componentes:
   - Key
 
 Entrega también un listado de responsabilidades.
+
+> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > <<<<<<<<<<<<<<<<<<<<<<<<
+
+Info:
+
+Mostrar el mensaje "Llamando..." cuando se active la llamada.
+Controlar la visibilidad del mensaje mediante el estado y la clase CSS "off".
+
+Display:
+Mostrar el número de teléfono ingresado.
+Recibir el número como una prop y mostrarlo en el elemento HTML correspondiente.
+
+Actions:
+Contener los botones de acción, es decir, el botón "Llamar" y el botón "Colgar".
+Gestionar el intercambio de visibilidad entre los dos botones según las reglas del desafío.
+Gestionar la habilitación y deshabilitación del teclado.
+
+Action:
+Representar un botón de acción (llamar o colgar).
+
+Keyboard:
+Contener los botones numéricos y el botón de borrar.
+Gestionar la entrada de números de teléfono mediante los botones numéricos.
+Gestionar la eliminación del último dígito o del número completo al presionar el botón de borrar.
+Restringir la entrada a un máximo de 9 cifras.
+
+Key:
+Representar un botón numérico.
